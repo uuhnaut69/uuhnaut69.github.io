@@ -9,6 +9,8 @@ profilePicture = "images/profile.jpg"
 displayMode = "dark"
 
 theme = "anatole"
+readMore = true
+postSectionName = "post"
 
 summarylength = 10
 enableEmoji = true
@@ -26,6 +28,11 @@ reversepagetitle = true
 enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
 use = "katex"  # options: "katex", "mathjax". default is "katex".
 
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
 [module]
   # uncomment line below for temporary local development of module
